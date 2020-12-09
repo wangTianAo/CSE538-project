@@ -1,0 +1,213 @@
+[50259, 23748, 995, 50257, 50258]
+GPT2Config {
+  "_name_or_path": "../save/concode/checkpoint-last",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50259,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50258,
+  "gradient_checkpointing": false,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "pad_token_id": 50257,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "vocab_size": 50261
+}
+
+Model has a total of 124442880 trainable parameters
+Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='', config_dir=None, data_dir='../dataset/concode', device=device(type='cuda'), do_eval=True, do_infer=False, do_lower_case=False, do_train=False, eval_all_checkpoints=False, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gpu_per_node=-1, gradient_accumulation_steps=1, langs='java', learning_rate=5e-05, load_name='pretrained', local_rank=-1, log_file='text2code_concode_eval.log', logging_steps=100, max_grad_norm=1.0, max_steps=-1, mlm=False, mlm_probability=0.15, model_type='gpt2', n_gpu=1, no_cuda=False, node_index=-1, num_train_epochs=1.0, output_dir='../save/concode', overwrite_cache=False, overwrite_output_dir=False, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=2, pretrain_dir='../save/concode/checkpoint-last', save_steps=50, save_total_limit=None, seed=42, server_ip='', server_port='', start_epoch=0, start_step=0, tensorboard_dir=None, tokenizer_dir=None, warmup_steps=0, weight_decay=0.0)
+Data size: 2000
+Rank 0, load 0
+Rank 0, load 10
+Rank 0, load 20
+Rank 0, load 30
+Rank 0, load 40
+Rank 0, load 50
+Rank 0, load 60
+Rank 0, load 70
+Rank 0, load 80
+Rank 0, load 90
+0 are done!
+100 are done!
+200 are done!
+300 are done!
+400 are done!
+500 are done!
+600 are done!
+700 are done!
+800 are done!
+900 are done!
+1000 are done!
+1100 are done!
+1200 are done!
+1300 are done!
+1400 are done!
+1500 are done!
+1600 are done!
+1700 are done!
+1800 are done!
+1900 are done!
+dev bleu: 3.3, dev EM: 1.4
+[50259, 23748, 995, 50257, 50258]
+GPT2Config {
+  "_name_or_path": "../save/concode/checkpoint-last",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50259,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50258,
+  "gradient_checkpointing": false,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "pad_token_id": 50257,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "vocab_size": 50261
+}
+
+Model has a total of 124442880 trainable parameters
+Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='', config_dir=None, data_dir='../dataset/concode', device=device(type='cuda'), do_eval=True, do_infer=False, do_lower_case=False, do_train=False, eval_all_checkpoints=False, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gpu_per_node=-1, gradient_accumulation_steps=1, langs='java', learning_rate=5e-05, load_name='pretrained', local_rank=-1, log_file='text2code_concode_eval.log', logging_steps=100, max_grad_norm=1.0, max_steps=-1, mlm=False, mlm_probability=0.15, model_type='gpt2', n_gpu=1, no_cuda=False, node_index=-1, num_train_epochs=1.0, output_dir='../save/concode', overwrite_cache=False, overwrite_output_dir=False, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=2, pretrain_dir='../save/concode/checkpoint-last', save_steps=50, save_total_limit=None, seed=42, server_ip='', server_port='', start_epoch=0, start_step=0, tensorboard_dir=None, tokenizer_dir=None, warmup_steps=0, weight_decay=0.0)
+Data size: 2000
+Rank 0, load 0
+Rank 0, load 10
+Rank 0, load 20
+Rank 0, load 30
+Rank 0, load 40
+Rank 0, load 50
+Rank 0, load 60
+Rank 0, load 70
+Rank 0, load 80
+Rank 0, load 90
+0 are done!
+100 are done!
+200 are done!
+300 are done!
+400 are done!
+500 are done!
+600 are done!
+700 are done!
+800 are done!
+900 are done!
+1000 are done!
+1100 are done!
+1200 are done!
+1300 are done!
+1400 are done!
+1500 are done!
+1600 are done!
+1700 are done!
+1800 are done!
+1900 are done!
+dev bleu: 17.5, dev EM: 16.2
+[50257, 23748, 995, 50260, 50258]
+GPT2Config {
+  "_name_or_path": "../save/concode/checkpoint-5000-16.91",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50257,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50258,
+  "gradient_checkpointing": false,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "pad_token_id": 50260,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "vocab_size": 50261
+}
+
+Model has a total of 124442880 trainable parameters
+Training/evaluation parameters Namespace(adam_epsilon=1e-08, block_size=512, cache_dir='', config_dir=None, data_dir='../dataset/concode', device=device(type='cuda'), do_eval=True, do_infer=False, do_lower_case=False, do_train=False, eval_all_checkpoints=False, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gpu_per_node=-1, gradient_accumulation_steps=1, langs='java', learning_rate=5e-05, load_name='pretrained', local_rank=-1, log_file='text2code_concode_eval.log', logging_steps=100, max_grad_norm=1.0, max_steps=-1, mlm=False, mlm_probability=0.15, model_type='gpt2', n_gpu=1, no_cuda=False, node_index=-1, num_train_epochs=1.0, output_dir='../save/concode', overwrite_cache=False, overwrite_output_dir=False, per_gpu_eval_batch_size=4, per_gpu_train_batch_size=2, pretrain_dir='../save/concode/checkpoint-5000-16.91', save_steps=50, save_total_limit=None, seed=42, server_ip='', server_port='', start_epoch=0, start_step=0, tensorboard_dir=None, tokenizer_dir=None, warmup_steps=0, weight_decay=0.0)
+Data size: 2000
+Rank 0, load 0
+Rank 0, load 10
+Rank 0, load 20
+Rank 0, load 30
+Rank 0, load 40
+Rank 0, load 50
+Rank 0, load 60
+Rank 0, load 70
+Rank 0, load 80
+Rank 0, load 90
+0 are done!
+100 are done!
+200 are done!
+300 are done!
+400 are done!
+500 are done!
+600 are done!
+700 are done!
+800 are done!
+900 are done!
+1000 are done!
+1100 are done!
+1200 are done!
+1300 are done!
+1400 are done!
+1500 are done!
+1600 are done!
+1700 are done!
+1800 are done!
+1900 are done!
+dev bleu: 15.86, dev EM: 12.4
